@@ -1,0 +1,67 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topNavBar>nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topNavBar>nav>ul>li {
+    float: left;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.topNavBar>nav>ul>li>a {
+    font-size: 10px;
+    color: #C0C2C5;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.topNavBar>nav>ul>li>a:hover {
+    border-bottom: 4px solid #E8676B;
+}
+
+.topNavBar>a {
+    float: left;
+}
+.topNavBar{
+    padding:20px 16px 20px 16px;
+}
+.topNavBar>nav {
+    float: right;
+    padding-top: 6px;
+}
+
+.topNavBar .logo {
+    font-size: 24px;
+    font-family: "Arial Black";
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+
+.topNavBar .logo .rs {
+    margin-right: 5px;
+    color: #E8676B;
+}
+
+.topNavBar .logo .card {
+    color: #9A9DA2;
+}
